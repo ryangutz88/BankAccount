@@ -13,6 +13,6 @@ package com.company;
                 decreaseBalance();
             }
         }
-        public 
+        public
     }
 
