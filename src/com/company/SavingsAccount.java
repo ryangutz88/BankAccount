@@ -1,8 +1,18 @@
 package com.company;
 
-public class SavingsAccount {
+    public class SavingsAccount extends Account {
+        private double annualInterest;
 
-    public static void main(String[] args) {
+        public SavingsAccount(int idNumber, double startBal, double ai) {
+            super(idNumber, startBal);
+            annualInterest = ai;
+        }
 
+        public double Withdraw(double ammount) {
+            if(currentBalance() => ammount){
+                decreaseBalance();
+            }
+        }
+        public 
     }
-}
+
