@@ -8,7 +8,7 @@ package com.company;
             annualInterest = ai;
         }
 
-        public double withdraw(double ammount) {
+        public void withdraw(double ammount) {
             if(ammount <= currentBalance()){
                 super.decreaseBalance(ammount);
             }
