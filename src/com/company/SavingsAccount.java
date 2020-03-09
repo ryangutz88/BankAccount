@@ -8,11 +8,13 @@ package com.company;
             annualInterest = ai;
         }
 
-        public double Withdraw(double ammount) {
-            if(currentBalance() => ammount){
-                decreaseBalance();
+        public double withdraw(double ammount) {
+            if(ammount <= currentBalance()){
+                super.decreaseBalance(ammount);
             }
         }
-        public
+        public double monthlyInterest(){
+            return (currentBalance() * annualInterest / 12);
+        }
     }
 

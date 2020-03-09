@@ -1,4 +1,4 @@
 package com.company;
 
-public class SpecialCheckingAccount {
+public class SpecialCheckingAccount extends CheckingAccount() {
 }
